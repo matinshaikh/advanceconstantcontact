@@ -1,0 +1,43 @@
+{
+    "name": "matinshaikh/advance-constant-contact",
+    "description": "Basic integration with Constant Contact API to allow you to add new contacts to your Constant Contact lists.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "advanceconstantcontact"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/matinshaikh/advance-constant-contact/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/matinshaikh/advance-constant-contact/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matin Shaikh",
+            "homepage": "http://qaswaweb.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "matinshaikh\\advanceconstantcontact\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "AdvanceConstantContact",
+        "handle": "advance-constant-contact",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/matinshaikh/advance-constant-contact/master/CHANGELOG.md",
+        "components": {
+            "advanceConstantContactService": "matinshaikh\\advanceconstantcontact\\services\\AdvanceConstantContactService"
+        },
+        "class": "matinshaikh\\advanceconstantcontact\\AdvanceConstantContact"
+    }
+}
